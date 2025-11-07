@@ -1,0 +1,15 @@
+:: 1️⃣ Go to backend folder
+cd D:\_new_\Rajlaxmi_MyHub\backend
+
+:: 2️⃣ Activate virtual environment
+venv\Scripts\activate
+
+:: 3️⃣ Install dependencies (only if new packages added)
+pip install -r requirements.txt
+
+:: 4️⃣ Apply migrations (only if models changed)
+python manage.py makemigrations
+python manage.py migrate
+
+:: 5️⃣ Run the development server accessible to local network
+python manage.py runserver 0.0.0.0:8000
