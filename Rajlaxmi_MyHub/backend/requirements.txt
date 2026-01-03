@@ -1,7 +1,7 @@
 asgiref==3.9.2
 certifi==2025.10.5
 charset-normalizer==3.4.3
-Django==6.0
+Django==4.2.27
 django-cors-headers==4.9.0
 djangorestframework==3.16.1
 gunicorn==23.0.0
